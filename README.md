@@ -12,7 +12,7 @@ We're going to be building a simple calculator by incorporating what we've learn
     - Click one of the four buttons ( + or - or x or % )
     - The result of the calculation will show in the results area.
 
-![basic calculator](https://git.generalassemb.ly/joel-hughes-general-assembly/react-calculator/blob/master/calculator.png)
+![basic calculator](https://github.com/SEI-ATL-3-8/react-calculator/blob/main/calculator.png)
 
 ## Core goals
 1. Create a fresh react app with `yarn create react-app your-app-name`
@@ -28,4 +28,4 @@ We're going to be building a simple calculator by incorporating what we've learn
     - The result of the calculation will show in the results area
 1. Hint: don't get fooled by the labels on the buttons. For example, when you click the button labeled "+" the button labeled "=" will now perform addition when you click it. Similarly, when you click the button labeled "-" the button labeled "=" will now perform subtraction when you click it. And so on. This can be accomplished by having four different buttons that are all labeled "=" but only one is displayed at a time. Each of the "=" buttons performs a different mathematical operation. Think back to when Pete covered how to toggle between showing the "Color Changer" page and the "Counter" page, and apply that same approach to showing the appropriate "=" button corresponding to "+" or "-" or "*" or "/" depending on which of the four math operations buttons is clicked.
 
-![calculator stretch goal](https://git.generalassemb.ly/joel-hughes-general-assembly/react-calculator/blob/master/calculator-stretch-goal-version.png)
+![calculator stretch goal](https://github.com/SEI-ATL-3-8/react-calculator/blob/main/calculator-stretch-goal-version.png)

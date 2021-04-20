@@ -28,6 +28,6 @@ We're going to be building a simple calculator by incorporating what we've learn
     - The result of the calculation will show in the results area
 1. Hint: Don't get fooled by the labels on the buttons. For example, when you click the button labeled "+" the button labeled "=" will now perform addition when you click it. Similarly, when you click the button labeled "-" the button labeled "=" will now perform subtraction when you click it. And so on. This can be accomplished by having four different buttons that are all labeled "=" but only one is displayed at a time. Each of the "=" buttons performs a different mathematical operation. Think back to when Pete covered how to toggle between showing the "Color Changer" page and the "Counter" page, and apply that same approach to showing the appropriate "=" button corresponding to "+" or "-" or "*" or "/" depending on which of the four math operations buttons is clicked.
 
-1. Another Hint: Think ternery operators!
+1. Another Hint: Think ternary operators (from our morning and afternoon lessons today)!
 
 ![calculator stretch goal](https://github.com/SEI-ATL-3-8/react-calculator/blob/main/calculator-stretch-goal-version.png)

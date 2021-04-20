@@ -11,7 +11,7 @@ We're going to be building a simple calculator by incorporating what we've learn
     - Enter a number in Box 2
     - Click one of the four buttons ( + or - or x or % )
     - The result of the calculation will show in the results area.
-1. See the attached wireframe. 
+
 ![basic calculator](https://git.generalassemb.ly/joel-hughes-general-assembly/react-calculator/blob/master/calculator.png)
 
 ## Core goals

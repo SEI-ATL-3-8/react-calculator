@@ -15,7 +15,7 @@ We're going to be building a simple calculator by incorporating what we've learn
 ![basic calculator](https://git.generalassemb.ly/joel-hughes-general-assembly/react-calculator/blob/master/calculator.png)
 
 ## Core goals
-1. Create a fresh react app in this folder
+1. Create a fresh react app with `yarn create react-app your-app-name`
 1. `cd` into your new app, and `rm -rf .git`
 1. Put your code in App.js and styling in App.css. We will make the whole calculator in one component for this exercise (since we haven't learned about lifting state yet)
 

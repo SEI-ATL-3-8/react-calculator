@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid gray;
+  height: 300px;
+}
+
+.result {
+  text-align: center;
+  width: 80%;
+  border: 2px solid black;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.operation {
+  height: 40%;
+  width: 10%;
+  margin: 5px;
+}
+
+.equals {
+  height: 100%;
+  width: 91%;
+}
+
+input[type=number] {
+  width: 20%;
+}

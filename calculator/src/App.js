@@ -8,19 +8,21 @@ function App() {
   const [operator, setOperator] = useState('+')
 
   const calculateNumber = e => {
+    const calculateElement = document.querySelector('h1').innerText
+
     e.preventDefault()
     switch(operator) {
       case '*':
-        document.querySelector('h1').innerText = firstNumber * secondNumber
+        calculateElement = firstNumber * secondNumber
         break;
       case '+':
-        document.querySelector('h1').innerText = parseInt(firstNumber) + parseInt(secondNumber)
+        calculateElement = parseInt(firstNumber) + parseInt(secondNumber)
         break;
       case '-':
-        document.querySelector('h1').innerText = firstNumber - secondNumber
+        calculateElement = firstNumber - secondNumber
         break;
       case '%':
-        document.querySelector('h1').innerText = firstNumber / secondNumber
+        calculateElement = firstNumber / secondNumber
         break;
       default:
         break;

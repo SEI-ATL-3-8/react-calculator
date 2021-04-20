@@ -1,6 +1,6 @@
-# Calculator React
+# Calculator in React
 
-We're going to be building a simple calculator by incorporating what we've learned about React state and event listeners.
+We're going to be building a simple calculator by incorporating what we've learned about React state and event listeners. We won't be creating nested components in this exercise so don't worry about making a components folder or writing your JS anywhere except in App.js.
 
 ## Instructions
 1. Create two input fields: one will take the first number of your calculation, the other will take the second.

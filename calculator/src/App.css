@@ -1,0 +1,30 @@
+html, * {
+  box-sizing: border-box;
+}
+
+.calc-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  width: 33.3%;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.calculator {
+  margin: 0 auto;
+  width: 600px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.clear-button {
+  width: 100%;
+}

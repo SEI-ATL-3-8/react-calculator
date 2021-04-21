@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from 'react'
 
+// note that index.js is currently rendering Stretch.js, which is my personal stretch that builds off of the homework assignment
 function App() {
 
   const [number1, setNumber1] = useState(0)

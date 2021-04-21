@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Stretch from './Stretch'
+import App from './App'; // HW Core & Stretch
+import Stretch from './Stretch' // Personal Stretch
 
 
 ReactDOM.render(

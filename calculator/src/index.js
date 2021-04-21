@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Stretch from './Stretch'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Stretch />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -62,12 +62,12 @@ function App() {
           </div>
           <input type="number" name="number2" value={number2} onChange={(e) => {setNumber2(parseInt(e.target.value))}} />
 
-          { isAdd === false && isSubtract === false && isMultiply === false && isDivide === false ? <button>=</button> : null}
+          { isAdd === false && isSubtract === false && isMultiply === false && isDivide === false ? <button className="btn-calc">=</button> : null}
 
-          { isAdd === true && <button onClick={calcAdd}>=</button> }
-          { isSubtract === true && <button onClick={calcSubtract}>=</button> }
-          { isMultiply === true && <button onClick={calcMultiply}>=</button> }
-          { isDivide === true && <button onClick={calcDivide}>=</button> }
+          { isAdd === true && <button className="btn-calc" onClick={calcAdd}>=</button> }
+          { isSubtract === true && <button className="btn-calc" onClick={calcSubtract}>=</button> }
+          { isMultiply === true && <button className="btn-calc" onClick={calcMultiply}>=</button> }
+          { isDivide === true && <button className="btn-calc" onClick={calcDivide}>=</button> }
 
           <div className="answer-field">{answer}</div>
 

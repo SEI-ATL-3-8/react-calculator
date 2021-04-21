@@ -1,0 +1,19 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    margin:20px auto;
+    align-items: center;
+}
+
+input {
+    height: 50px;
+    width: 100px;
+    margin: 0 5px 30px 5px;
+    font-size: 40px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    margin: 0 5px 30px 5px;
+}

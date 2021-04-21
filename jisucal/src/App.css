@@ -1,0 +1,15 @@
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.resultDiv{
+  width: 60px;
+  height: 30px;
+  border: 1px solid;
+}
+button{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}

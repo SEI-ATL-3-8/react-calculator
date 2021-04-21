@@ -75,6 +75,15 @@ function App() {
       }
   }
 
+  const handleClear = () => {
+    setCalc({
+      ...calc,
+      firstValue: '',
+      output: '',
+      symbol: ''
+    });
+  };
+
 
 
 
@@ -97,7 +106,10 @@ function App() {
             ))
         }
 
+    
+
         </div>
+        <button onClick={handleClear} className="clear-button">clear</button>
 
       </div>
     

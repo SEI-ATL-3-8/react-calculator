@@ -30,7 +30,7 @@ const Form = () => {
             </form>
             <span className="buttons">
                 <button onClick={() => setOp('addition')}>+</button>
-                <button onClick={() => setOp('subtraction')}>-</button>
+                <button onClick={() => setOp('subtract')}>-</button>
                 <button onClick={() => setOp('multiplication')}>*</button>
                 <button onClick={() => setOp('division')}>/</button>
             </span>

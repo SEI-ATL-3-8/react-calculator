@@ -2,6 +2,35 @@
   text-align: center;
 }
 
+.inputs {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.input {
+  border: solid gray 1px;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  width: 100px;
+}
+
+.input:focus {
+  outline-width: 0;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-right: 1px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

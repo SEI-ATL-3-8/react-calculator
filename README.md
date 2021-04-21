@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Calculator in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We're going to be building a simple calculator by incorporating what we've learned about React state and event listeners. We won't be creating nested components in this exercise so don't worry about making a components folder or writing your JS anywhere except in App.js.
 
-## Available Scripts
+## Instructions
 
-In the project directory, you can run:
+1. Create two input fields: one will take the first number of your calculation, the other will take the second.
+1. Create four buttons corresponding to four mathematical operations: add, subtract, multiply, divide.
+1. Create an element on your page that displays the results of running a calculation.
+1. Here is how your user will operate your calculator:
+   - Enter a number in Box 1
+   - Enter a number in Box 2
+   - Click one of the four buttons ( + or - or x or % )
+   - The result of the calculation will show in the results area.
 
-### `yarn start`
+![basic calculator](src\assets\calculator.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Core goals
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Create a fresh react app with `yarn create react-app your-app-name`
+1. `cd` into your new app, and `rm -rf .git`
+1. Put your code in App.js and styling in App.css. We will make the whole calculator in one component for this exercise (since we haven't learned about lifting state yet)
 
-### `yarn test`
+## Stretch goals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. The above described sequence of how to operate your calculator isn't how users operate "real-world" calculators. To make it more realistic, make your calculator operate by the below order of user actions:
+   - Enter a number in Box 1
+   - Click on one of the four buttons ( + or - or x or % )
+   - Enter a number in Box 2
+   - Click on the "equals" button
+   - The result of the calculation will show in the results area
+1. Hint: Don't get fooled by the labels on the buttons. For example, when you click the button labeled "+" the button labeled "=" will now perform addition when you click it. Similarly, when you click the button labeled "-" the button labeled "=" will now perform subtraction when you click it. And so on. This can be accomplished by having four different buttons that are all labeled "=" but only one is displayed at a time. Each of the "=" buttons performs a different mathematical operation. Think back to when Pete covered how to toggle between showing the "Color Changer" page and the "Counter" page, and apply that same approach to showing the appropriate "=" button corresponding to "+" or "-" or "\*" or "/" depending on which of the four math operations buttons is clicked.
 
-### `yarn build`
+1. Another Hint: Think ternary operators (from our morning and afternoon lessons today)!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![calculator stretch goal](src\assets\calculator-stretch-goal-version.png)
